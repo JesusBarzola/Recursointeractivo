@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="at6NSME8LfSom" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>Prueba</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="prueba_organization">
+		<organization identifier="prueba_organization">
+
+			<title>Prueba</title>
+			<item identifier="CA1F1FAF-5E53-4DE3-B310-C8D52A4A6613" identifierref="resource">
+				<title>Cuestionario sin título</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/audios/snd-3ec84c9ffc5e90d156b65a96bd5e82da63936c81.mp3"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/fonts/fnt4.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-38e2a6638d7d3ea3f746f8d9598963326508d776.jpg"/>
+<file href="res/data/images/img-3d76158839b8bbef4184b1aef261dc1d85414e25.png"/>
+<file href="res/data/images/img-6c36a5608fed6346ab3bf28a17bfbf0d1d1a5cc4.jpg"/>
+<file href="res/data/images/img-849994bac15242766a996ef54585fc5292cc4fa6.png"/>
+<file href="res/data/images/img-947a828178cb00d570ae7b2012e74c4a5b40e4ac.jpg"/>
+<file href="res/data/images/img-97ba4234ee8ebcaa90cb463e8c1e5c158afb5279.jpg"/>
+<file href="res/data/images/img-9debac070cab1b820ed415ae8abee0ef9e1f1122.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
